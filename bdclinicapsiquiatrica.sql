@@ -35,6 +35,7 @@ CREATE TABLE `consulta` (
   `data_consulta` date NOT NULL,
   `horario_consulta` time NOT NULL,
   `local` varchar(30) NOT NULL,
+  `tipo_terapia` varchar(50) NOT NULL,
   `valor_consulta` double(7,2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
